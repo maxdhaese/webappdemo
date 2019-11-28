@@ -1,0 +1,7 @@
+be\intecbrussel\greetingservlet\dao\MessageDao.class
+be\intecbrussel\greetingservlet\servlets\GreetingServlet.class
+be\intecbrussel\greetingservlet\servlets\SquareServlet.class
+be\intecbrussel\greetingservlet\servlets\GuestBookServlet.class
+be\intecbrussel\greetingservlet\servlets\EchoServlet.class
+be\intecbrussel\greetingservlet\model\Message.class
+be\intecbrussel\greetingservlet\servlets\ReverseServlet.class
