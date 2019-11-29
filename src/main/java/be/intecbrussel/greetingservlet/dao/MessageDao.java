@@ -31,4 +31,19 @@ public class MessageDao {
 
     }
 
+    public void deleteMessage(Message message) throws SQLException {
+        Connection connection = DriverManager.getConnection("jdbc:mariadb://noelvaes.eu/StudentDB","student","student123");
+        PreparedStatement createStatement = connection.prepareStatement("DELETE From GuestBook WHERE Name = ?");//enter sql statement
+
+
+        createStatement.setString(1,message.getName());
+
+
+        createStatement.executeUpdate();
+
+        createStatement.close();
+        connection.close();
+
+    }
+
 }
